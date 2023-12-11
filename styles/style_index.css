@@ -138,13 +138,19 @@ input:hover ~ label {
     text-decoration: underline;
 }
 
-.isRemember {
+.isRemember::before {
     border-radius: 40px;
     border-color: #fff;
     background: none;
     cursor: pointer;
 }
 
+.isRemember::after {
+    border-radius: 40px;
+    border-color: #fff;
+    background-color: #fff;
+    cursor: pointer;
+}
 
 button  {
     width: 100%;
