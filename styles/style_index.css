@@ -49,7 +49,7 @@ h2 {
     margin: 0;
 }
 
-p{
+.message {
     align-items: center;
     position: relative;
     color: #fff;
