@@ -124,17 +124,17 @@ input:hover ~ label {
     justify-content: space-between;
 }
 
-.forget label input {
+.checkboxLink label input {
     margin-right: 3px;
 }
 
-.forget label a {
+.checkboxLink label a {
     color: #fff;
     text-decoration: none;
     margin-left: 45px;
 }
 
-.forget label a:hover {
+.checkboxLink label a:hover {
     text-decoration: underline;
 }
 
