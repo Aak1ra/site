@@ -148,7 +148,14 @@ button  {
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
+    box-shadow: 0 5px 15px 0 rgba(192, 192, 192, 1);
+    transition: 0.5s;
 }
+
+button:hover {
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 40px 0 rgba(192, 192, 192, 1);
+  }
 
 .register {
     font-size: .9em;
