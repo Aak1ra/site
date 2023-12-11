@@ -138,18 +138,34 @@ input:hover ~ label {
     text-decoration: underline;
 }
 
-.isRemember::before {
-    border-radius: 40px;
-    border-color: #fff;
-    background: none;
-    cursor: pointer;
+input[type="checkbox"] {
+    /* Скрыть оригинальный чекбокс */
+    display: none;
 }
 
-.isRemember::after {
-    border-radius: 40px;
-    border-color: #fff;
-    background-color: #fff;
+input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px; /* Размер чекбокса */
     cursor: pointer;
+    display: inline-block;
+}
+
+/* Стиль для галочки */
+input[type="checkbox"] + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; /* Размер галочки */
+    height: 20px; /* Размер галочки */
+    border: 2px solid white; /* Белая обводка */
+    background-color: white; /* Белый фон */
+    transition: background-color 0.3s;
+}
+
+/* Изменение цвета галочки при выборе чекбокса */
+input[type="checkbox"]:checked + label::before {
+    background-color: purple; /* Фиолетовый цвет галочки */
 }
 
 button  {
