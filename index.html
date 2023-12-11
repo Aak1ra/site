@@ -17,20 +17,20 @@
                 <div class="inputbox">
                     <ion-icon name="planet-outline"></ion-icon>
                     <input type="text" id="loginInput" required>
-                    <label for="">Username</label>
+                    <label for="">Nutzername</label>
                 </div>
                 <div class="inputbox">
                     <ion-icon name="eye-off-outline" id="passwordEyeOff" class="passwordIcon" onclick="ShowPassword()"></ion-icon>
                     <ion-icon name="eye-outline" id="passwordEyeOn" class="passwordIcon hidden" onclick="ShowPassword()"></ion-icon>
                     <input type="password" id="passwordInput" required>
-                    <label for="">Password</label>
+                    <label for="">Passwort</label>
                 </div>
                 <div class="forget">
-                    <label for=""><input type="checkbox" class="isRemember"> Remember me <a class="link" onclick="ForgetSection()">Forgot Password</a></label>
+                    <label for=""><input type="checkbox" class="isRemember"> Angemeldet bleiben <a class="link" onclick="ForgetSection()">Passwort vergessen?</a></label>
                 </div>
-                <button>Sign in</button>
+                <button>Anmelden</button>
                 <div class="register">
-                    <p>Don't have account <a class="link" onclick="RegistrationSection()">Sign Up</a></p>
+                    <p>Neuer Kunde? <a class="link" onclick="RegistrationSection()">Starte hier</a></p>
                 </div>
             </form>
         </section>
@@ -41,47 +41,47 @@
                 <div class="inputbox">
                     <ion-icon name="planet-outline"></ion-icon>
                     <input type="text" id="loginInput" required>
-                    <label for="">Username</label>
+                    <label for="">Nutzername</label>
                 </div>
                 <div class="inputbox">
                     <ion-icon name="mail-outline"></ion-icon>
                     <input type="email" id="emailInput" required>
-                    <label for="">Email</label>
+                    <label for="">E-Mail</label>
                 </div>
                 <div class="inputbox">
                     <ion-icon name="eye-off-outline" id="passwordEyeOff" class="passwordIcon" onclick="ShowPasswordReg()"></ion-icon>
                     <ion-icon name="eye-outline" id="passwordEyeOn" class="passwordIcon hidden" onclick="ShowPasswordReg()"></ion-icon>
                     <input type="password" id="passwordRegInput" required>
-                    <label for="">Password</label>
+                    <label for="">Passwort</label>
                 </div>
                 <div class="inputbox">
                     <ion-icon name="lock-closed-outline"></ion-icon>
                     <input type="password" required>
-                    <label for="">Confirm Password</label>
+                    <label for="">Passwort nochmals eingeben</label>
                 </div>
                 <div class="forget">
-                    <label for=""><input type="checkbox" class="isAgree">I agree to the <a class="link" onclick="ForgetSection()">Terms of User</a></label>
+                    <label for=""><input type="checkbox" class="isAgree">Ich stimme dem zu <a class="link" onclick="ForgetSection()">Nutzungsbedingungen</a></label>
                 </div>
                 <button onclick="">Sign Up</button>
                 <div class="login">
-                    <p>Already have an account? <a class="link" onclick="RegistrationSection()">Sign In</a></p>
+                    <p>Du hast bereits ein Konto? <a class="link" onclick="RegistrationSection()">Anmelden</a></p>
                 </div>
             </form>
         </section>
 
         <section id="fail" class="hidden">
             <form id="failForm">
-                <h2>Error</h2>
-                <p class="message">Wrong login or password</p>
-                <button onclick="FailSection()">Try again</button>
+                <h2>Fehler</h2>
+                <p class="message">Falscher Login oder Passwort</p>
+                <button onclick="FailSection()">Versuch es noch einmal</button>
             </form>
         </section>
 
         <section id="forget" class="hidden">
             <form id="forgetForm">
-                <h2>Password</h2>
+                <h2>Passwort</h2>
                 <p class="message">admin:12345678</p>
-                <button onclick="ForgetSection()">Return</button>
+                <button onclick="ForgetSection()">Zurück</button>
             </form>
         </section>
         
