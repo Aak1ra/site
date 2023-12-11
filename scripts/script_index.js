@@ -93,10 +93,10 @@ function RegistrationSection() {
     }
 }
 
-function ShowPassword(){
+function ShowPasswordReg(){
     var eye_on = document.getElementById("passwordEyeOn");
     var eye_off = document.getElementById("passwordEyeOff");
-    var $password = document.getElementById('passwordInput');
+    var $password = document.getElementById('passwordRegInput');
   
     if (eye_off.classList.contains("hidden")) {
         eye_off.classList.remove("hidden");
