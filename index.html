@@ -13,7 +13,7 @@
     <body>
         <section id="main">
             <form id="loginForm">
-                <h1>Login</h1>
+                <h2>Login</h2>
                 <div class="inputbox">
                     <ion-icon name="planet-outline"></ion-icon>
                     <input type="text" id="loginInput" required>
@@ -35,6 +35,14 @@
             </form>
         </section>
 
+        <section id="registration" class="hidden">
+            <form id="registrationForm">
+                <h2>Sign Up</h2>
+                <h2 class="message">We have no registration</h2>
+                <button onclick="RegistrationSection()">Return</button>
+            </form>
+        </section>
+
         <section id="fail" class="hidden">
             <form id="failForm">
                 <h1>Error</h1>
@@ -48,14 +56,6 @@
                 <h1>Password</h1>
                 <h2 class="message">admin:12345678</h2>
                 <button onclick="ForgetSection()">Return</button>
-            </form>
-        </section>
-
-        <section id="registration" class="hidden">
-            <form id="registrationForm">
-                <h1>Sign Up</h1>
-                <h2 class="message">We have no registration</h2>
-                <button onclick="RegistrationSection()">Return</button>
             </form>
         </section>
         
