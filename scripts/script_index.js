@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 setInterval(function() {
-    var currentTitle = document.title;
     var newTitle;
 
     if (LogicIndex === 0) {
