@@ -131,7 +131,7 @@ input:hover ~ label {
 .forget label a {
     color: #fff;
     text-decoration: none;
-    margin-left: 60px;
+    margin-left: 45px;
 }
 
 .forget label a:hover {
@@ -178,7 +178,7 @@ button:hover {
     font-size: .9em;
     color: #fff;
     text-align: center;
-    margin: 25px 0 5px;
+    margin: 25px 0 10px;
 }
 
 .login p a {
