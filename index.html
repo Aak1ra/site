@@ -26,7 +26,7 @@
                     <label for="">Password</label>
                 </div>
                 <div class="forget">
-                    <label for=""><input type="checkbox">Remember me <a class="link" onclick="ForgetSection()">Forgot Password</a></label>
+                    <label for=""><input type="checkbox" class="isRemember">Remember me <a class="link" onclick="ForgetSection()">Forgot Password</a></label>
                 </div>
                 <button>Sign in</button>
                 <div class="register">
@@ -59,9 +59,12 @@
                     <input type="password" required>
                     <label for="">Confirm Password</label>
                 </div>
+                <div class="forget">
+                    <label for=""><input type="checkbox" class="isAgree">I agree to the <a class="link" onclick="ForgetSection()">Terms of User</a></label>
+                </div>
                 <button onclick="">Sign Up</button>
                 <div class="login">
-                    <p>Have account <a class="link" onclick="RegistrationSection()">Sign In</a></p>
+                    <p>Already have an account? <a class="link" onclick="RegistrationSection()">Sign In</a></p>
                 </div>
             </form>
         </section>
