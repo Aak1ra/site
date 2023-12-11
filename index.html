@@ -25,9 +25,11 @@
                     <input type="password" id="passwordInput" required>
                     <label for="">Password</label>
                 </div>
-                <div class="forget">
-                    <label for=""><input type="checkbox" class="isRemember"><label for="isRemember"></label> Remember me <a class="link" onclick="ForgetSection()">Forgot Password</a></label>
-                </div>
+                <label class="custom-checkbox">
+                    <input type="checkbox" class="isRemember">
+                    <span class="custom-checkbox-label">Remember me</span>
+                    <a class="link" onclick="ForgetSection()">Forgot Password</a>
+                </label>
                 <button>Sign in</button>
                 <div class="register">
                     <p>Don't have account <a class="link" onclick="RegistrationSection()">Sign Up</a></p>

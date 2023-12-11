@@ -145,7 +145,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"] + label {
     position: relative;
-    padding-left: 1em; /* Размер чекбокса */
+    padding-left: 10px; /* Размер чекбокса */
     cursor: pointer;
     display: inline-block;
 }
@@ -159,7 +159,7 @@ input[type="checkbox"] + label::before {
     width: 20px; /* Размер галочки */
     height: 20px; /* Размер галочки */
     border: 2px solid white; /* Белая обводка */
-    background: none; /* Белый фон */
+    background: none; /* Прозрачный фон */
     transition: background-color 0.3s;
 }
 
