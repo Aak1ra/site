@@ -42,7 +42,7 @@ h2 {
     position: absolute;
     top: 20px;
     color: #fff;
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
@@ -131,7 +131,7 @@ input:hover ~ label {
 .checkboxLink label a {
     color: #fff;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 5px;
     font-weight: 600;
 }
 
@@ -204,6 +204,10 @@ button:hover {
     cursor: pointer;
 }
 
-.passwordIcon {
+.passwordIconLog {
+    cursor: pointer;
+}
+
+.passwordIconReg {
     cursor: pointer;
 }

@@ -20,9 +20,9 @@
                     <label for="">Nutzername</label>
                 </div>
                 <div class="inputbox">
-                    <ion-icon name="eye-off-outline" id="passwordEyeOff" class="passwordIcon" onclick="ShowPassword()"></ion-icon>
-                    <ion-icon name="eye-outline" id="passwordEyeOn" class="passwordIcon hidden" onclick="ShowPassword()"></ion-icon>
-                    <input type="password" id="passwordInput" required>
+                    <ion-icon name="eye-off-outline" id="passwordLogEyeOff" class="passwordIconLog" onclick="ShowPasswordLog()"></ion-icon>
+                    <ion-icon name="eye-outline" id="passwordLogEyeOn" class="passwordIconLog hidden" onclick="ShowPasswordLog()"></ion-icon>
+                    <input type="password" id="passwordLogInput" required>
                     <label for="">Passwort</label>
                 </div>
                 <div class="checkboxLink">
@@ -37,7 +37,7 @@
 
         <section id="registration" class="hidden">
             <form id="registrationForm">
-                <h2>Konto erstellen</h2>
+                <h2>Registrieren</h2>
                 <div class="inputbox">
                     <ion-icon name="planet-outline"></ion-icon>
                     <input type="text" id="loginInput" required>
@@ -49,8 +49,8 @@
                     <label for="">E-Mail</label>
                 </div>
                 <div class="inputbox">
-                    <ion-icon name="eye-off-outline" id="passwordEyeOff" class="passwordIcon" onclick="ShowPasswordReg()"></ion-icon>
-                    <ion-icon name="eye-outline" id="passwordEyeOn" class="passwordIcon hidden" onclick="ShowPasswordReg()"></ion-icon>
+                    <ion-icon name="eye-off-outline" id="passwordRegEyeOff" class="passwordIconReg" onclick="ShowPasswordReg()"></ion-icon>
+                    <ion-icon name="eye-outline" id="passwordRegEyeOn" class="passwordIconReg hidden" onclick="ShowPasswordReg()"></ion-icon>
                     <input type="password" id="passwordRegInput" required>
                     <label for="">Passwort</label>
                 </div>
@@ -60,9 +60,9 @@
                     <label for="">Passwort nochmals eingeben</label>
                 </div>
                 <div class="checkboxLink">
-                    <label for=""><input type="checkbox" class="isAgree">Ich stimme dem zu <a class="link" onclick="ForgetSection()">Nutzungsbedingungen</a></label>
+                    <label for=""><input type="checkbox" class="isAgree">Ich stimme dem zu <a class="link" onclick="UsersTerms()">Nutzungsbedingungen</a></label>
                 </div>
-                <button onclick="">Konto erstellen</button>
+                <button onclick="">Konto anlegen</button>
                 <div class="login">
                     <p>Du hast bereits ein Konto? <a class="link" onclick="RegistrationSection()">Anmelden</a></p>
                 </div>

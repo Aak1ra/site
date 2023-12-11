@@ -49,7 +49,7 @@ function validateLoginAndPassword(login, password) {
     if (login.length < 5 || password.length < 8) {
         return false;
     }
-    if (login.trim() === "admin" || password.trim() === "12345678") {
+    if (login.trim() == "admin" || password.trim() == "12345678") {
         return true;
     }
 }
@@ -93,22 +93,46 @@ function RegistrationSection() {
     }
 }
 
-function ShowPasswordReg(){
-    var eye_on = document.getElementById("passwordEyeOn");
-    var eye_off = document.getElementById("passwordEyeOff");
-    var $password = document.getElementById('passwordRegInput');
+function ShowPasswordLog(){
+    var Logeye_on = document.getElementById("passwordLogEyeOn");
+    var Logeye_off = document.getElementById("passwordLogEyeOff");
+    var $Logpassword = document.getElementById('passwordLogInput');
   
-    if (eye_off.classList.contains("hidden")) {
-        eye_off.classList.remove("hidden");
-        eye_on.classList.add("hidden");
+    if (Logeye_off.classList.contains("hidden")) {
+        Logeye_off.classList.remove("hidden");
+        Logeye_on.classList.add("hidden");
     } else {
-        eye_off.classList.add("hidden");
-        eye_on.classList.remove("hidden");
+        Logeye_off.classList.add("hidden");
+        Logeye_on.classList.remove("hidden");
     }
-    if($password.type == 'password'){
-        $password.setAttribute('type','text')
+    if($Logpassword.type == 'password'){
+        $Logpassword.setAttribute('type','text')
     }else {
-        $password.setAttribute('type','password')
+        $Logpassword.setAttribute('type','password')
     }
     
+}
+
+function ShowPasswordReg(){
+    var Regeye_on = document.getElementById("passwordRegEyeOn");
+    var Regeye_off = document.getElementById("passwordRegEyeOff");
+    var $Regpassword = document.getElementById('passwordRegInput');
+  
+    if (Regeye_off.classList.contains("hidden")) {
+        Regeye_off.classList.remove("hidden");
+        Regeye_on.classList.add("hidden");
+    } else {
+        Regeye_off.classList.add("hidden");
+        Regeye_on.classList.remove("hidden");
+    }
+    if($Regpassword.type == 'password'){
+        $Regpassword.setAttribute('type','text')
+    }else {
+        $Regpassword.setAttribute('type','password')
+    }
+    
+}
+
+function UsersTerms(){
+
 }
