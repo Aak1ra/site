@@ -1,8 +1,8 @@
 var LogicIndex = 0;
-var titles0 = ["Login","Kamehameha"];
-var titles1 = ["Main Menu","Kamehameha"];
-var titles2 = ["Profile","Kamehameha"];
-var titles3 = ["Haupt Site","Kamehameha"];
+var titles0 = ["Login","Site von Danila"];
+var titles1 = ["Main Menu","Site von Danila"];
+var titles2 = ["Profile","Site von Danila"];
+var titles3 = ["Haupt Site","Site von Danila"];
 var currentIndex = 0;
 
 document.addEventListener("DOMContentLoaded", function () {
